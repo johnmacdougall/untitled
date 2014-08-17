@@ -9,5 +9,8 @@ myapp.Greeter.prototype.greet = function(name) {
     if (name == 0) {
         return null;
     }
+      if (name == 3) {
+        return null;
+    }
     return "Hello " + name + "!";
 };
